@@ -7,6 +7,7 @@
 		<title>Basic Portfolio - Contact Page</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/contact_styles.css">
 	</head>
 	<body>
 		<header>
@@ -27,36 +28,49 @@
 		</header>
 		<main class="group">
 			<section id="leftOfMain">
-				<h3>Contact</h3>
-				<p><img src="assets/images/dgbprofile.jpg" alt="Picture of David Bethelmy">
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus condimentum lacus, ut interdum ipsum pellentesque a. Integer vitae pharetra metus, ut interdum mi. Sed porta mi nec varius consectetur. Aenean id lectus id arcu mattis blandit. Fusce eleifend, eros vel ultrices maximus, nibh tortor pellentesque leo, vitae ullamcorper mi mi nec quam. Quisque nunc tellus, malesuada eu lorem sit amet, tincidunt molestie metus. Aenean at dui a lacus interdum pharetra.</p>
-
-					<p>Duis egestas, libero ut iaculis aliquam, dui magna viverra augue, sed commodo orci justo et sem. Nullam cursus, nunc consequat volutpat aliquam, magna diam fermentum risus, nec congue lectus risus quis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Fusce ac euismod massa. Duis accumsan sem egestas elementum convallis. Curabitur felis nisl, interdum ut magna in, blandit scelerisque nisl. Integer condimentum ante in aliquam finibus. Aliquam et tellus varius, molestie arcu nec, rutrum quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-				</section>
-				<section id = "rightOfMain">
-					<h4>Connect with Me</h4>
-					<ul>
-						<li class="tooltip">
-							<a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a>
-							<span class="tooltiptext">Facebook</span>
-						</li>
-						<li class="tooltip">
-							<a href="#"><img src="assets/images/linkedin_sheep.png" alt="LinkedIn"></a>
-							<span class="tooltiptext">LinkedIn</span>
-						</li>
-						<li class="tooltip">
-							<a href="#"><img src="assets/images/github-octocat.png" alt="GitHub"></a>
-							<span class="tooltiptext">GitHub</span>
-						</li>
-						<li class="tooltip">
-							<a href="#"><img src="assets/images/stackoverflowpx.png" alt="Stack Overflow"></a>
-							<span class="tooltiptext">Stack Overflow</span>
-						</li>
-					</ul>
-				</section>
-			</main>
-			<footer>
-				<h6>&copy;Copyright 2016 David Bethelmy</h6>
-			</footer>
-		</body>
-		</html>
+				<form method = "POST" action = "#">
+					<!-- Some form elements like label and input are styled as block elements -->
+					<p>
+						<label>Name</label>
+						<input type = "text" name = "fullName" placeholder="John Doe">
+					</p>
+					<p>
+						<label>Email</label>
+						<input type="email" name="email" placeholder="you@wherever.com">
+					</p>
+					<p>
+						<label>Message</label>
+						<textarea name="message" rows="10" placeholder="Leave a message here."></textarea>
+					</p>
+					<p>
+						<input type="submit" name="Submit" value = "Submit">
+					</p>
+				</form>
+			</section>
+			<section id = "rightOfMain">
+				<h4>Connect with Me</h4>
+				<ul>
+					<li class="tooltip">
+						<a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a>
+						<span class="tooltiptext">Facebook</span>
+					</li>
+					<li class="tooltip">
+						<a href="#"><img src="assets/images/linkedin_sheep.png" alt="LinkedIn"></a>
+						<span class="tooltiptext">LinkedIn</span>
+					</li>
+					<li class="tooltip">
+						<a href="#"><img src="assets/images/github-octocat.png" alt="GitHub"></a>
+						<span class="tooltiptext">GitHub</span>
+					</li>
+					<li class="tooltip">
+						<a href="#"><img src="assets/images/stackoverflowpx.png" alt="Stack Overflow"></a>
+						<span class="tooltiptext">Stack Overflow</span>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<footer>
+			<h6>&copy;Copyright 2016 David Bethelmy</h6>
+		</footer>
+	</body>
+	</html>
