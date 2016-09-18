@@ -1,0 +1,254 @@
+html{
+
+}
+
+body{
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-color: #777777;
+	background-color: #e6e6e6;
+    /*background-image: url("../images/ones_zeros.png");*/
+}
+
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0px;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h3 { 
+    display: block;
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h4 { 
+    display: block;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h5 { 
+    display: block;
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h6 { 
+    display: block;
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+
+header h2{
+}
+
+a{
+	text-decoration: none;
+ }
+
+a:link    {
+    color:green; 
+    background-color:transparent; 
+    text-decoration:none;
+    color:inherit;
+}
+a:visited {color:pink; 
+    background-color:transparent; 
+    text-decoration:none;
+    color:inherit;
+}
+a:hover   {color:red; 
+    background-color:#ccc; 
+    text-decoration:none;
+    color:inherit;
+}
+a:active  {color:yellow; 
+    background-color:teal;
+    opacity: 0.7;
+    text-decoration:none;
+    color:inherit;
+}
+
+p{
+	margin: 10px;
+	padding: 10px;
+}
+
+header{
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	margin-bottom: 5px;
+}
+
+#insideHeader{
+        /*padding-top: 10px;*/
+}
+
+#insideHeader, main{
+	width: 960px;
+	margin: 0 auto;
+}
+
+main{
+    padding: 10px;
+}
+
+#leftOfInsideHeader{
+	color: white;
+	background-color: teal;
+	float: left;
+    width: 25%;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+#rightOfInsideHeader{
+	float: right;
+	/*background-color: #ff6699;*/
+    padding: 21px 0;
+    margin: auto;
+    width:65%;
+    text-align: center;
+ }
+
+#rightOfInsideHeader li{
+	display: inline-block;
+	font-size: .8em;
+    margin: 0px;
+}
+
+#rightOfInsideHeader li a{
+    padding: 10px;
+}
+
+main{
+	clear: both;
+	/*background-color: #ffccff;*/
+}
+
+footer{
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #666666;
+    border-top: 10px solid teal;
+}
+
+footer h6{
+	text-align: center;
+}
+
+img{
+    border-radius: 10px;
+    float: left;
+    margin: 0px 5px 0 0;
+}
+
+#leftOfMain{
+    width: 650px;
+    padding: 10px;
+    float: left;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+#rightOfMain{
+    width: 270px;
+    float: right;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    /*background-image: url("../images/ones_zeros.png");*/
+}
+
+#rightOfMain ul{
+    margin-bottom: 20px;
+}
+
+#rightOfMain li{
+    display: inline-block;
+    /*padding: 5px;*/
+    margin: 5px;
+}
+
+
+#leftOfMain h3{
+    padding-left: 10px;
+    margin-left: 10px;
+    border-bottom: 2px solid #cccccc;
+    /*width: 100%;*/
+}
+
+/*Nicolas Gallagher clearfix*/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+} 
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+ 
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    border-bottom: 1px dotted white; /* If you want dots under the hoverable text */
+}

@@ -4,21 +4,59 @@
 	<!DOCTYPE html>
 	<html>
 	<head>
-		<title>Basic Portfolio</title>
+		<title>Basic Portfolio - Home Page</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 	</head>
 	<body>
-		<h1>Studio Bio</h1>
-		<h2>David Bethelmy</h2>
-		<img src="assets/images/dgbprofile.jpg">
-		<p>
-			Hello. This is a short paragraph about me. It is really very short.
-		</p>
-		<h2>Contact Info</h2>
-		<ul>
-			<li><strong>Email:</strong><a href="#">bethelmyd@gmail.com</a></li>
-			<li><strong>Github:</strong><a href="#">bethelmyd</a></li>
-			<li><strong>Portfolio:</strong><a href="#">coming soon</a></li>
-		</ul>
+		<header>
+			<section id = "insideHeader" class="group">
+				<section id="leftOfInsideHeader">
+					<h2>David Bethelmy</h2>
+				</section>
+				<section id="rightOfInsideHeader">
+					<nav>
+						<ul>
+							<li><a href="#">About</a></li>
+							<li><a href="portfolio.html">Portfolio</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</nav>
+				</section>
+			</section>
+		</header>
+		<main class="group">
+			<section id="leftOfMain">
+				<h3>About Me</h3>
+				<p><span class = "tooltip"><img src="assets/images/dgbprofile.jpg" alt="Picture of David Bethelmy"><span class="tooltiptext">David Bethelmy</span></span>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tempus condimentum lacus, ut interdum ipsum pellentesque a. Integer vitae pharetra metus, ut interdum mi. Sed porta mi nec varius consectetur. Aenean id lectus id arcu mattis blandit. Fusce eleifend, eros vel ultrices maximus, nibh tortor pellentesque leo, vitae ullamcorper mi mi nec quam. Quisque nunc tellus, malesuada eu lorem sit amet, tincidunt molestie metus. Aenean at dui a lacus interdum pharetra.</p>
 
-	</body>
-	</html>
+					<p>Duis egestas, libero ut iaculis aliquam, dui magna viverra augue, sed commodo orci justo et sem. Nullam cursus, nunc consequat volutpat aliquam, magna diam fermentum risus, nec congue lectus risus quis lacus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In hac habitasse platea dictumst. Fusce ac euismod massa. Duis accumsan sem egestas elementum convallis. Curabitur felis nisl, interdum ut magna in, blandit scelerisque nisl. Integer condimentum ante in aliquam finibus. Aliquam et tellus varius, molestie arcu nec, rutrum quam. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+				</section>
+				<section id = "rightOfMain">
+					<h4>Connect with Me</h4>
+					<ul>
+						<li class="tooltip">
+							<a href="#"><img src="assets/images/facebook.png" alt="Facebook"></a>
+							<span class="tooltiptext">Facebook</span>
+						</li>
+						<li class="tooltip">
+							<a href="#"><img src="assets/images/linkedin_sheep.png" alt="LinkedIn"></a>
+							<span class="tooltiptext">LinkedIn</span>
+						</li>
+						<li class="tooltip">
+							<a href="#"><img src="assets/images/github-octocat.png" alt="GitHub"></a>
+							<span class="tooltiptext">GitHub</span>
+						</li>
+						<li class="tooltip">
+							<a href="#"><img src="assets/images/stackoverflowpx.png" alt="Stack Overflow"></a>
+							<span class="tooltiptext">Stack Overflow</span>
+						</li>
+					</ul>
+				</section>
+			</main>
+			<footer>
+				<h6>&copy;Copyright 2016 David Bethelmy</h6>
+			</footer>
+		</body>
+		</html>
