@@ -170,7 +170,7 @@ footer h6{
 img{
     border-radius: 10px;
     float: left;
-    margin: 0px 5px 0 0;
+    margin: 0px 5px 0px 0;
 }
 
 #leftOfMain{
@@ -181,6 +181,32 @@ img{
     border-radius: 5px;
 }
 
+#leftOfMain p{
+    line-height: 1.5em;
+}
+
+#leftOfMain h3{
+    padding-left: 10px;
+    margin-left: 10px;
+    border-bottom: 2px solid #cccccc;
+    /*width: 100%;*/
+}
+
+#leftOfMain ol{
+    margin-left: 30px;
+    /*margin-top: 2px;*/
+    /*padding: 5px;*/
+}
+
+#leftOfMain ol li{
+    /*margin: 5px;*/
+    padding: 5px;
+}
+
+/*#leftOfMain img{
+    margin-bottom: 5px;
+}
+*/
 #rightOfMain{
     width: 270px;
     float: right;
@@ -200,13 +226,6 @@ img{
     margin: 5px;
 }
 
-
-#leftOfMain h3{
-    padding-left: 10px;
-    margin-left: 10px;
-    border-bottom: 2px solid #cccccc;
-    /*width: 100%;*/
-}
 
 /*Nicolas Gallagher clearfix*/
 .group:before,
