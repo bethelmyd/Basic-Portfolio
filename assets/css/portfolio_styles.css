@@ -1,18 +1,13 @@
-#row1Img1{
-	/*background-image: url("../images/bear.jpg");*/
-}
 #leftOfMain > section {
-	padding:0;
-	/*width: 80%;*/
-	/*margin: 0 auto;*/
-}
-#leftOfMain > section > div{
-	position: relative;
-	width: 275px;
-	height: 200px;
 	padding:0;
 	margin-left: 10px;
 	margin-bottom: 20px;
+}
+#leftOfMain > section > div{
+	position: relative;
+	width: 315px;
+	height: 360px;
+	padding:0;
 }
 
 #leftOfMain > section > div.left{
@@ -29,7 +24,7 @@
 	background-color: teal;
 	padding: 10px 0 10px 0;
 	margin: 0;
-	width: 175px;
+	width: 315px;
 	position: absolute;
 	bottom: 5px;
 	left:0;
@@ -39,8 +34,8 @@
 }
 
 .row > div > img{
-	width:275px;
-	height: 200px;
+	width:315px;
+	height: 360px;
 	border:none;
 	padding: 0;
 	margin:0;
