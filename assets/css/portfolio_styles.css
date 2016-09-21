@@ -3,19 +3,19 @@
 }
 #leftOfMain > section {
 	padding:0;
-	width: 80%;
-	margin: 0 auto;
+	/*width: 80%;*/
+	/*margin: 0 auto;*/
 }
-#leftOfMain section > div{
+#leftOfMain > section > div{
 	position: relative;
-	width: 205px;
+	width: 275px;
 	height: 200px;
 	padding:0;
 	margin-left: 10px;
 	margin-bottom: 20px;
 }
 
-#leftOfMain section > div.left{
+#leftOfMain > section > div.left{
 	float: left;
 }
 
@@ -27,7 +27,7 @@
 	border: none;
 	color: white;
 	background-color: teal;
-	padding: 15px;
+	padding: 10px 0 10px 0;
 	margin: 0;
 	width: 175px;
 	position: absolute;
@@ -39,7 +39,7 @@
 }
 
 .row > div > img{
-	width:205px;
+	width:275px;
 	height: 200px;
 	border:none;
 	padding: 0;
